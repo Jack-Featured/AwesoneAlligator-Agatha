@@ -1,13 +1,22 @@
 <template>
-    <h1>Administración de Plantillas</h1>
+  <div id="app">
+    <Cards />
+  </div>
 </template>
 
 <script>
-    export default {
-        name: 'Plantillas',  
-    }
+import Cards from "./Cards.vue";
+
+export default {
+  name: "cards",
+  components: {
+    Cards,
+  },
+  data() {
+    return {};
+  }
+};
 </script>
 
-<style>
-
+<style scoped>
 </style>
